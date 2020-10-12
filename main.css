@@ -1,0 +1,57 @@
+body {
+    background-color: #D3D3D3;
+    /* set background color to very light gray using hexadecimal color value (0.25 marks)*/
+}
+
+h1 {
+    border-bottom: 5px solid red;
+    color: red;
+    font-family: "Times New Roman";
+    ;
+    /* set the text color and font size (0.25 marks) and create line at the bottom of the "box" (0.5 marks)
+Hint: Look up the CSS property border-bottom. */
+}
+
+h2 {
+    font-family: 'Roboto';
+    color: blue;
+    /* Set the right color and use font "Roboto" from Google fonts! You must use quotes around Google Fonts as shown. (0.5 marks) 
+Use colorpicker software to identify the exact colour.  On Mac it's called Digital Color Meter.*/
+}
+
+p {
+    font-family: "Raleway";
+    text-align: relative;
+    font-size: large;
+    line-height: inherit;
+    padding: 1%;
+    margin: 1%;
+    width: 87%;
+    /* Use "Raleway" fo
+    nt from Google Fonts!.  Check line-height and padding CSS attributes. (2.5 marks)*/
+}
+
+.logo {
+    max-width: 100px;
+    height: 150px;
+    height: auto;
+    float: right;
+    position: relative;
+    /* Figure out how to move the logo to the right and set the dimensions (marging, width, padding, etc) of the image box! (2 marks) */
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+/* Check overflow CSS attribute and possible values! (1 mark)*/
+
+p strong {
+    text-decoration: underline;
+    /* Check text decoration CSS attributes! (1 mark)*/
+}
+
+
+/* Following submission instructions - see rubric attached to the A1 dropbox on SLATE (2 marks). 
+Total 10 marks = 10% of final grade */
